@@ -1,0 +1,137 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: 000;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('../img/rectangle-bg.svg') no-repeat center top / cover;
+}
+
+header a {
+    color: #000;
+}
+
+.nav {
+    padding-top: 86px;
+    display: flex;
+    align-items: center;
+}
+
+.menu li a, .logo li a {
+    text-decoration: none;
+}
+
+.menu {
+    margin-left: auto;
+    display: flex;
+    font-size: 20px;
+}
+
+.menu li {
+    margin-right: 50px;
+}
+
+
+.menu li.log-in {
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.menu li.sign-up a{
+    padding: 10.5px 15.5px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.menu li.home {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo li.logo-name{
+    margin-left: 15px;
+    letter-spacing: 0.085em;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.offer{
+    display: flex;
+    margin-top: 63px;
+}
+
+.texts {
+    margin-top: 100px;
+    color: #000;
+}
+
+.text1{
+    font-size: 48px;
+    font-weight: 700;
+    width: 401px;
+}
+
+.text2 {
+    font-size: 24px;
+    font-weight: 400;
+    width: 490px;
+    margin-top: 10px;
+}
+
+.button {
+    margin-top: 50px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 28px;
+    padding: 23.8px 34.2px;
+    background: linear-gradient(102.4deg, #FF4949 29.58%, #ffa200 76.45%);
+    border-radius: 50px;
+    box-shadow: 0 0 0 0 rgba(156, 91, 0, 0.788), 0 0 0 0 rgba(255, 0, 0, 0.47);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:after {
+    transition: transform 0.5s ease;
+}
+  
+.btn:hover {
+    box-shadow: 10px -10px 25px 0 rgba(255, 0, 0, 0.47), -10px 10px 25px 0 rgba(255, 119, 0, 0.838);
+}
+
+.horse{
+    margin-top: -20px;
+    margin-left: -60px;
+    width: 914px;
+    height: 610px;
+}
